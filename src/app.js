@@ -27,7 +27,7 @@ app.set('view engine', 'handlebars')
 app.use('/hbs', viewsRouter)
 
 const httpServer = app.listen(PORT, ()=>{
-    console.log('Se esta escuchando en el puerot', PORT);  
+    console.log('Se esta escuchando en el puerto', PORT);  
 })
 
 //Server es una clase. 
